@@ -1,20 +1,20 @@
 import { IProject } from '@/types';
 
 export const GENERAL_INFO = {
-    email: 'tasmirolislam@gmail.com',
+    email: 'cstaphen@gmail.com',
 
     emailSubject: "Let's collaborate on a project",
-    emailBody: 'Hi Tajmirul, I am reaching out to you because...',
+    emailBody: 'Hi Clement, I am reaching out to you because...',
 
-    oldPortfolio: 'https://www.legacy.me.toinfinite.dev',
-    upworkProfile: 'https://www.upwork.com/freelancers/tajmirul',
+    
+    upworkProfile: '',
 };
 
 export const SOCIAL_LINKS = [
-    { name: 'github', url: 'https://github.com/Tajmirul' },
-    { name: 'linkedin', url: 'https://www.linkedin.com/in/tajmirul' },
-    { name: 'facebook', url: 'https://www.facebook.com/tajmirul.2000' },
-    { name: 'Old Version', url: GENERAL_INFO.oldPortfolio },
+    { name: 'github', url: 'https://github.com/Cconack' },
+    { name: 'linkedin', url: 'www.linkedin.com/in/clement-stephen-mendie' },
+    { name: 'behance', url: 'https://www.behance.net/mendieclement' },
+   
 ];
 
 export const MY_STACK = {
@@ -286,23 +286,33 @@ export const PROJECTS: IProject[] = [
 
 export const MY_EXPERIENCE = [
     {
-        title: 'Software Engineer (Frontend)',
-        company: 'Strativ AB',
-        duration: 'Dec 2024 - Present',
+        title: 'Senior Product Designer (Remote)',
+        company: 'Corvendra Ltd',
+        duration: 'May 2025 - Present',
     },
     {
-        title: 'Frontend Developer',
-        company: 'Epikcoders',
-        duration: 'Oct 2023 - Nov 2024',
+        title: 'Senior Product Designer (Remote)',
+        company: 'Ethifunds',
+        duration: 'Sep 2024 - Dec 2024',
     },
     {
-        title: 'Frontend Engineer',
-        company: 'Anchorblock Technology',
-        duration: 'Oct 2022 - Sep 2023',
+        title: 'Product Design Lead',
+        company: 'Motopay',
+        duration: 'Mar 2023 - Apr 2025',
     },
     {
-        title: 'Frontend Developer (Part-time)',
-        company: 'Branex IT',
-        duration: 'Jan 2022 - Oct 2022',
+        title: 'Product Design Lead',
+        company: 'Sujimoto Group',
+        duration: 'Apr 2023 - Apr 2025',
+    },
+    {
+        title: 'Chief Product Oﬃcer (CPO)',
+        company: 'Bridgingspace Technologies Limited',
+        duration: 'Mar 2022 - Feb 2023',
+    },
+    {
+        title: 'UI/UX Designer (Front-end developer)',
+        company: 'QwikMech',
+        duration: 'Nov 2020 - Jan 2022',
     },
 ];
