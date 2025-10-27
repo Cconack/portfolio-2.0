@@ -8,10 +8,10 @@ export default function Home() {
     return (
         <div className="page-">
             <Banner />
+            <ProjectList />
             <AboutMe />
             <Skills />
             <Experiences />
-            <ProjectList />
         </div>
     );
 }
